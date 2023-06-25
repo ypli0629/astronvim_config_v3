@@ -23,9 +23,16 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["."] = { "<cmd>ZenMode<cr>", desc = "Zen Mode" },
+    ["<F2>"] = { "<cmd>UndotreeToggle<cr>", desc = "UndotreeToggle" },
+    ["<A-S-up>"] = { "<Plug>MoveBlockUp", desc = "move block up" },
+    ["<A-S-down>"] = { "<Plug>MoveBlockDown", desc = "move block down" },
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
+  },
+  v = {
+    ["<A-S-up>"] = { "<Plug>MoveBlockUp", desc = "move block up" },
+    ["<A-S-down>"] = { "<Plug>MoveBlockDown", desc = "move block down" },
   },
 }

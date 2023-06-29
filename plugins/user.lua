@@ -12,10 +12,6 @@ return {
     lazy = false,
   },
   {
-    "matze/vim-move",
-    lazy = false,
-  },
-  {
     "lbrayner/vim-rzip",
     lazy = false,
   },
@@ -33,10 +29,6 @@ return {
   },
   {
     "skywind3000/asyncrun.vim",
-    lazy = false,
-  },
-  {
-    "opalmay/vim-smoothie",
     lazy = false,
   },
 }

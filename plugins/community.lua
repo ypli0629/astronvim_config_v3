@@ -1,6 +1,7 @@
 return {
   -- Add the community repository of plugin specifications
-  "AstroNvim/astrocommunity",
+  { "AstroNvim/astrocommunity", dev = true },
+  -- { dir = "~/projects/astrocommunity" },
   -- example of imporing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
@@ -16,11 +17,12 @@ return {
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.editing-support.neogen" },
   { import = "astrocommunity.editing-support.suda-vim" },
+  { import = "astrocommunity.editing-support.vim-move" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.note-taking.neorg" },
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
-  -- { import = "astrocommunity.scrolling.vim-smoothie" },
+  { import = "astrocommunity.scrolling.vim-smoothie" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.bash" },

@@ -26,6 +26,8 @@ return {
     ["<F2>"] = { "<cmd>UndotreeToggle<cr>", desc = "UndotreeToggle" },
     ["<A-S-up>"] = { "<Plug>MoveBlockUp", desc = "move block up" },
     ["<A-S-down>"] = { "<Plug>MoveBlockDown", desc = "move block down" },
+    ["<A-S-left>"] = { "<Plug>MoveBlockLeft", desc = "move block left" },
+    ["<A-S-right>"] = { "<Plug>MoveBlockDown", desc = "move block right" },
   },
   t = {
     -- setting a mapping to false will disable it
@@ -34,5 +36,7 @@ return {
   v = {
     ["<A-S-up>"] = { "<Plug>MoveBlockUp", desc = "move block up" },
     ["<A-S-down>"] = { "<Plug>MoveBlockDown", desc = "move block down" },
+    ["<A-S-left>"] = { "<Plug>MoveBlockLeft", desc = "move block left" },
+    ["<A-S-right>"] = { "<Plug>MoveBlockDown", desc = "move block right" },
   },
 }

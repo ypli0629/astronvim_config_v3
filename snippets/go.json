@@ -1,0 +1,26 @@
+{
+  "Swag GET": {
+    "prefix": "sg",
+    "body": [
+      "// ${1:method}\n// @Summary ${2:summary}\n// @Tags    ${3:tags}\n// @Accept  json\n// @Produce json\n// @Param   query query    ${4:vo}   false \"参数\"\n// @Success 200   {object} core.Response{data=core.PaginatedData{list=${5:models.}}}\n// @Security JWT\n// @Router  ${6:/} [get]"
+    ]
+  },
+  "Swag POST": {
+    "prefix": "sp",
+    "body": [
+      "// ${1:method}\n// @Summary ${2:summary}\n// @Tags    ${3:tags}\n// @Accept  json\n// @Produce json\n// @Param   body body     ${4:vo} true \"参数\"\n// @Success 200   {object} core.Response{data=${5:bool}}\n// @Security JWT\n// @Router  ${6:/} [post]"
+    ]
+  },
+  "Swag PUT": {
+    "prefix": "spt",
+    "body": [
+      "// ${1:method}\n// @Summary ${2:summary}\n// @Tags    ${3:tags}\n// @Accept  json\n// @Produce json\n// @Param   body body     ${4:vo} true \"参数\"\n// @Success 200   {object} core.Response{data=${5:bool}}\n// @Security JWT\n// @Router  ${6:/} [put]"
+    ]
+  },
+  "Swag DELETE": {
+    "prefix": "sd",
+    "body": [
+      "// ${1:method}\n// @Summary ${2:summary}\n// @Tags    ${3:tags}\n// @Accept  json\n// @Produce json\n// @Param   id path     string true \"参数\"\n// @Success 200   {object} core.Response{data=${5:bool}}\n// @Security JWT\n// @Router  ${6:/} [delete]"
+    ]
+  }
+}

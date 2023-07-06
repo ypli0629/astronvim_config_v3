@@ -23,12 +23,4 @@ return {
     "voldikss/vim-translator",
     lazy = false,
   },
-  {
-    "skywind3000/asynctasks.vim",
-    lazy = false,
-  },
-  {
-    "skywind3000/asyncrun.vim",
-    lazy = false,
-  },
 }
